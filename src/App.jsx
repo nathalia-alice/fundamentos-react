@@ -1,3 +1,4 @@
+import './App.css'
 import React from 'react'
 
 import Card from './components/layout/Card'
@@ -10,24 +11,25 @@ export default () => (
     <div id="app">
         <h1>Fundamentos React (Arrow)</h1>
 
-        <Card titulo="#4 - Desafio aleatório">
-            <Aleatorio max={10} min={1} />
-        </Card>
-        
-        <Card titulo="#3 - Fragmento">
-            <Fragmento />
-        </Card>
+        <div className="Cards">
+            <Card titulo="#4 - Desafio aleatório">
+                <Aleatorio max={10} min={1} />
+            </Card>
 
-        <Card titulo="#2 - Com Parâmetro">
-            <ComParametro
-                titulo="Situação do aluno"
-                aluno="Pedro"
-                nota={9.3} />
-        </Card>
+            <Card titulo="#3 - Fragmento">
+                <Fragmento />
+            </Card>
 
-        <Card titulo="#01 - Primeiro Componente">
-            <Primeiro></Primeiro>
-        </Card>
-        
+            <Card titulo="#2 - Com Parâmetro">
+                <ComParametro
+                    titulo="Situação do aluno"
+                    aluno="Pedro"
+                    nota={9.3} />
+            </Card>
+
+            <Card titulo="#01 - Primeiro Componente">
+                <Primeiro></Primeiro>
+            </Card>
+        </div>
     </div>
 )
