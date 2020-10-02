@@ -12,22 +12,22 @@ export default () => (
         <h1>Fundamentos React (Arrow)</h1>
 
         <div className="Cards">
-            <Card titulo="#4 - Desafio aleatório">
+            <Card titulo="#4 - Desafio aleatório" color="#FA6900">
                 <Aleatorio max={10} min={1} />
             </Card>
 
-            <Card titulo="#3 - Fragmento">
+            <Card titulo="#3 - Fragmento" color="#E94C6F">
                 <Fragmento />
             </Card>
 
-            <Card titulo="#2 - Com Parâmetro">
+            <Card titulo="#2 - Com Parâmetro" color="#E8B71A">
                 <ComParametro
                     titulo="Situação do aluno"
                     aluno="Pedro"
                     nota={9.3} />
             </Card>
 
-            <Card titulo="#01 - Primeiro Componente">
+            <Card titulo="#01 - Primeiro Componente" color="#588C73">
                 <Primeiro></Primeiro>
             </Card>
         </div>
