@@ -19,7 +19,7 @@ import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from './components/basicos/Aleatorio'
 
 export default () => (
-    <div id="app">
+    <div className="App">
         <h1>Fundamentos React (Arrow)</h1>
 
         <div className="Cards">
